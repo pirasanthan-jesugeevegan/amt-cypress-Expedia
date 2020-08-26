@@ -1,0 +1,25 @@
+{
+  "name": "expedia",
+  "version": "1.0.0",
+  "description": "Cypress & Cucumber to test Expedia Website ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "expedia"
+  ],
+  "author": "Pirasanthan jesugeevegan",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^5.0.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^2.5.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+    }
+}
