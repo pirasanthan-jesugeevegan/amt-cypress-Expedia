@@ -20,5 +20,10 @@
   "adultPlus": ".adultStepInput > .uitk-flex > :nth-child(3)",
   "childrenPlus": ".childStepInput > .uitk-flex > :nth-child(3)",
   "childrenAge": "select[id='child-age-input-0-0']",
-  "totalTravellers": "span[class='uitk-button-subText']"
+  "totalTravellers": "span[class='uitk-button-subText']",
+  "star1": ":nth-child(4) > .property-class-input > .uitk-button-toggle-group > :nth-child(1) > .uitk-button-toggle-label > .uitk-button-toggle-content",
+  "star2": ":nth-child(4) > .property-class-input > .uitk-button-toggle-group > :nth-child(2) > .uitk-button-toggle-label > .uitk-button-toggle-content",
+  "star3": ":nth-child(4) > .property-class-input > .uitk-button-toggle-group > :nth-child(3) > .uitk-button-toggle-label > .uitk-button-toggle-content",
+  "star4": ":nth-child(4) > .property-class-input > .uitk-button-toggle-group > :nth-child(4) > .uitk-button-toggle-label > .uitk-button-toggle-content",
+  "star5": ":nth-child(4) > .property-class-input > .uitk-button-toggle-group > :nth-child(5) > .uitk-button-toggle-label > .uitk-button-toggle-content"
 }

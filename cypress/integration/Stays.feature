@@ -1,5 +1,9 @@
 Feature: Stays Functionality
 
+    As a user
+    I would like to search for hotel deals
+    So that I can book a hotel deal
+
     Background: navigate to stay page
         Given the user navigates to stays page
 
@@ -34,3 +38,14 @@ Feature: Stays Functionality
             |          | 25      | 31       | 3     | 1        |
         And the user clicks on Search button
         Then the field 'errorMessage' contains 'Please select a destination'
+
+    @E2E @TC004
+    Scenario: TC004 - Verify if a user is able to filter deals
+        Given the user is on stay page
+        When the user enters
+            | Location | CheckIn | Checkout | Adult | Children |
+            | London   | 25      | 31       | 3     | 1        |
+        And the user clicks on Search button
+        And "London (and vicinity), England, United Kingdom" should be shown
+        And the user selects "4" starts
+        Then the user selects the first deal
