@@ -1,15 +1,10 @@
 {
   "baseUrl": "https://www.expedia.co.uk",
   "testFiles": "**/*.feature",
-  "reporter": "cypress-multi-reporters",
+  "reporter": "mochawesome",
   "reporterOptions": {
-    "reporterEnabled": "mochawesome",
-    "mochawesomeReporterOptions": {
-      "reportDir": "cypress/reports/mocha",
-      "quite": true,
-      "overwrite": false,
-      "html": false,
-      "json": true
-    }
+    "overwrite": false,
+    "html": false,
+    "json": true
   }
 }
