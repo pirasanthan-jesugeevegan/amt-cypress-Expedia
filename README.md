@@ -29,14 +29,14 @@ npx cypress open
 
 **Note** - Some Scenarios may fail on command line due to website response time  
 ```
-npm run test
+npm run test:chrome
 
 ```
 
-Run test with tags:  **Tags**  - @e2e @TC001 @TC002 @TC003 @TC004
+Run test with tags:  **Tags**  - @E2E @TC001 @TC002 @TC003 @TC004 @Negitave
 
 ```
-npm run test -e TAGS='e2e'
+npx cypress-tags run -e TAGS='@E2E'
 ```
 
 
