@@ -14,12 +14,13 @@
   "author": "Pirasanthan jesugeevegan",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^5.0.0"
+    "cypress": "^5.0.0",
+    "npm": "^6.14.8"
   },
   "devDependencies": {
     "cypress-cucumber-preprocessor": "^2.5.5"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
-    }
+  }
 }
