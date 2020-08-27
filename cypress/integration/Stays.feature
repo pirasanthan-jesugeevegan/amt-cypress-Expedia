@@ -7,7 +7,7 @@ Feature: Stays Functionality
     Background: navigate to stay page
         Given the user navigates to stays page
 
-
+    @TC001
     Scenario Outline: TC001 - Verify that the stay screen contains <elementName> elements
         Given the field '<elements>' is visible
         Then the user navigates to 'home'
