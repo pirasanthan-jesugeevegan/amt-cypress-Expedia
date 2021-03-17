@@ -1,8 +1,11 @@
-const stayPage = require('../../pageObject/stays.json')
+const stayPage = require('../../pageObject/stays.json');
 
-Given('the user navigates to stays page', () => {
-    
-    cy.visit('/Hotels', {failOnStatusCode:false}).wait(3000)
-    cy.get(stayPage.moreTravel).click()
-    cy.get(stayPage.stays).click()
+Given('the user navigates to home page', () => {
+  cy.clearLocalStorage();
+  cy.clearCookies();
+  cy.reload();
+  cy.visit('/');
+  cy.get(stayPage.stays)
+    .should('be.visible')
+    .and('have.class', 'bui-tab__link--selected');
 });

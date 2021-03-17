@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://www.expedia.co.uk",
+  "baseUrl": "https://www.booking.com/",
   "testFiles": "**/*.feature",
   "reporter": "mochawesome",
   "reporterOptions": {
