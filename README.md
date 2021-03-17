@@ -1,5 +1,16 @@
-# Expedia Hotel Journey
-This is a task to Automate the [Expedia Hotel booking system](https://www.expedia.co.uk/Hotels) using Cypress and Cucumber, Please see below for the Test Case that are automated 
+
+<p align="center">
+ <img src="http://assets.stickpng.com/images/589a4c455aa6293a4aac48ca.png" />
+
+ </p>
+ <p align="center">
+ <img height="50px" src="https://miro.medium.com/max/7200/1*Jkb_tsMBOvL6wQ8bzldu8Q.png" />
+  <img height="50px" src="http://assets.stickpng.com/images/58480ffbcef1014c0b5e4947.png" />
+ </p>
+<h1 align="center">Expedia Hotel Journey</h1>
+
+This is a task to Automate the [Expedia Hotel booking system](https://www.expedia.co.uk/Hotels) using Cypress and Cucumber with Mochawesome report, Please see below for the Test Case that are automated 
+
 
 ## **Test Scenario**: Stay Function
 
@@ -14,34 +25,26 @@ Note - These are one of the few to be automated
 ## Install
 
 1.  clone the repo
-2.  `npm install`
+2.  `npm install` or 	`yarn install`
+
 
 ## Run tests
-**Pretest** - Create a 'reports' folder in cypress folder
+**CLI** - Run CLI
 
- - Run test on UI
+ 
 ```
-npx cypress open
+npx cypress run
 ```
-
-
-- Run test on Command Line:
-
-**Note** - Some Scenarios may fail on command line due to website response time  
+**Cypress UI** - Run on Cypress UI
+ 
 ```
-npm run test:chrome
-
+yarn || npm test:chrome
 ```
-
-Run test with tags:  **Tags**  - @E2E @TC001 @TC002 @TC003 @TC004 @Negitave
-
-```
-npx cypress-tags run -e TAGS='@E2E'
-```
-
-
 ## Technology used:
 
- - Cypress
+ - Cypress 
  - Cucumber
- - Mochawsome
+ - Mochawesome
+
+## DEMO
+[Live report - Schedule to run everyday ](https://pirasanthan-jesugeevegan.github.io/amt-cypress-Expedia/)
