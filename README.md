@@ -1,11 +1,13 @@
 
 <p align="center">
- <img src="http://assets.stickpng.com/images/589a4c455aa6293a4aac48ca.png" />
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Expedia_2012_logo.svg/1200px-Expedia_2012_logo.svg.png" />
 
  </p>
  <p align="center">
- <img height="50px" src="https://miro.medium.com/max/7200/1*Jkb_tsMBOvL6wQ8bzldu8Q.png" />
-  <img height="50px" src="http://assets.stickpng.com/images/58480ffbcef1014c0b5e4947.png" />
+  <img height="50px" src="https://miro.medium.com/max/7200/1*Jkb_tsMBOvL6wQ8bzldu8Q.png" />
+  <img height="50px" src="https://cdn.iconscout.com/icon/free/png-256/mocha-1-1175012.png" /> 
+  <img height="50px" src="https://brandslogos.com/wp-content/uploads/thumbs/cucumber-logo-vector.svg" />
+  
  </p>
 <h1 align="center">Expedia Hotel Journey</h1>
 
